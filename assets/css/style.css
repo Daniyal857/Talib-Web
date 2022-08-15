@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;700&display=swap");
+
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif; 
+*/
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #737373;
+}
+
+/* ========================= */
+/* HEADER SECTION */
+/* ========================= */
+.customHeader .navbar-nav .nav-link.active,
+.customHeader .navbar-nav .show > .nav-link {
+  background-color: #12cbae;
+  border-radius: 5px;
+}
+.customHeader {
+  padding-top: 20px;
+}
+.customHeader .navbar-nav .nav-link {
+  color: white;
+  font-size: 18px;
+  line-height: 24px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.customHeader .navbar-nav {
+  margin-left: auto;
+}
+.customHeader .navbar {
+  width: 100%;
+}
+.heroSection {
+  background-image: url("/assets/images/hero-cover.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+}
