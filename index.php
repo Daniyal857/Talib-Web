@@ -166,6 +166,9 @@ require(__DIR__ . '/views/includes/header.php');
 <section class="locationSection py-5">
   <div class="container">
     <div class="d-flex align-items-center flex-column">
+      <svg class="plus top" width="156" height="156" viewBox="0 0 156 156" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path opacity="0.1" d="M101.4 0H54.6V54.5695H0V101.43H54.6V156H101.4V101.43H156V54.5695H101.4V0Z" fill="#12CBAE" />
+      </svg>
       <h5 class="mb-2 title">Our Location</h5>
       <p class="desc mb-4">Problems trying to resolve the conflict between
         <span class="d-flex">the two major realms of Classical physics: Newtonian mechanics</span>
@@ -174,6 +177,9 @@ require(__DIR__ . '/views/includes/header.php');
     <div class="mapWrapper">
       <img src="/assets/images/map.jpg" class="img-fluid" alt="map">
     </div>
+    <svg class="plus bottom" width="156" height="156" viewBox="0 0 156 156" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path opacity="0.1" d="M101.4 0H54.6V54.5695H0V101.43H54.6V156H101.4V101.43H156V54.5695H101.4V0Z" fill="#12CBAE" />
+    </svg>
   </div>
 </section>
 
