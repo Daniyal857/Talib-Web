@@ -1,8 +1,5 @@
 <?php
 
-// require(__Dir__.'./../../config/vars.php');
-// require(__Dir__.'./../../config/schema.php');
-// require(__Dir__.'./../../config/bread.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -94,15 +91,17 @@
 					<div class="row">
 						<div class="col">
 							<div class="heroInner">
-								<h1 class="title colorWhite">Meet the Best Hospital</h1>
+								<h1 class="title colorWhite">Meet the Best <span class="d-flex">Hospital</span></h1>
 								<p class="text colorWhite">We know how large objects will act,
 									<span class="d-block">but things on a small scale.</span>
 								</p>
-								<a href="#" class="btn btn-primary primaryBackgroundColor colorWhite">call us now</a>
+								<a href="#" class="btn callBtn btn-primary primaryBackgroundColor colorWhite">call us now</a>
 							</div>
 						</div>
 						<div class="col">
-							<div class="form">form here</div>
+							<div class="custom-form">
+								<?php require(__DIR__ . '/bookAppointmentCalculator.php'); ?>
+							</div>
 						</div>
 					</div>
 				</div>
