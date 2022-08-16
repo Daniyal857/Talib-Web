@@ -4,7 +4,7 @@ require(__DIR__ . '/views/includes/header.php');
 ?>
 
 
-<!--ABOUT US Section 
+<!--ABOUT US SECTION 
   ================================================== -->
 <section class="about-us py-5">
   <div class="container">
@@ -23,9 +23,7 @@ require(__DIR__ . '/views/includes/header.php');
   </div>
 </section>
 
-
-
-<!--Featured Items Section 
+<!--FEATURED ITEM SECTION 
   ================================================== -->
 <section class="featuredSection py-5">
   <div class="container">
@@ -100,7 +98,7 @@ require(__DIR__ . '/views/includes/header.php');
   </div>
 </section>
 
-<!--Services Section 
+<!--SERVICES SECTION 
   ================================================== -->
 <section class="servicesSection">
   <div class="container px-4 py-5" id="featured-3">
@@ -159,6 +157,22 @@ require(__DIR__ . '/views/includes/header.php');
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quam imperdiet non pretium mi.</p>
         </div>
       </div>
+    </div>
+  </div>
+</section>
+
+<!--LOCATION SECTION 
+  ================================================== -->
+<section class="locationSection py-5">
+  <div class="container">
+    <div class="d-flex align-items-center flex-column">
+      <h5 class="mb-2 title">Our Location</h5>
+      <p class="desc mb-4">Problems trying to resolve the conflict between
+        <span class="d-flex">the two major realms of Classical physics: Newtonian mechanics</span>
+      </p>
+    </div>
+    <div class="mapWrapper">
+      <img src="/assets/images/map.jpg" class="img-fluid" alt="map">
     </div>
   </div>
 </section>
