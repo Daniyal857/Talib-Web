@@ -133,5 +133,44 @@ body {
   height: 110px;
   position: absolute;
   background-size: contain;
-  background-image: url(/assets/images/plusIcon.svg);
+  background-image: url("/assets/images/plusIcon.svg");
+}
+.featuredSection {
+  background-color: #f1fffd;
+}
+.featuredSection .title {
+  text-transform: capitalize;
+  font-size: 25px;
+  color: #252b42;
+}
+.product-card {
+  background-color: white;
+  border: 0.5px solid #d1d1d1;
+}
+.product-card .title {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+.product-card .desc {
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "Open Sans";
+}
+.product-card .priceBox .price {
+  color: #151515;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+.product-card .cartBtn {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.featuredSection .viewAll {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+.viewAll .arrowRight {
+  transform: translateX(5px);
 }
