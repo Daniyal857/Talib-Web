@@ -18,7 +18,7 @@
         line-height: 24px;
     }
 
-    .appointmentForm .btn {
+    .appointmentForm .submitBtn {
         width: 100%;
         font-size: 14px;
         border-radius: 5px;
@@ -88,7 +88,7 @@
             </select>
         </div>
         <div class="col-12">
-            <button type="submit" class="btn btn-primary primaryBackgroundColor mt-1">Book Appointment</button>
+            <button type="submit" class="custom-btn submitBtn primaryBackgroundColor mt-1 py-2">Book Appointment</button>
         </div>
     </form>
 </div>
