@@ -1,4 +1,23 @@
-$(document).ready(function () {
-  var site_phone_number = "0000-000-0000";
-  var site_email_address = "info@websitename.co.uk";
-}); /*end document ready function*/
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(() => {
+  "use strict";
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  const forms = document.querySelectorAll(".needs-validation");
+
+  // Loop over them and prevent submission
+  Array.from(forms).forEach((form) => {
+    form.addEventListener(
+      "submit",
+      (event) => {
+        if (!form.checkValidity()) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+
+        form.classList.add("was-validated");
+      },
+      false
+    );
+  });
+})();

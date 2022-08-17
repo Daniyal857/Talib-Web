@@ -434,6 +434,17 @@ footer .about-block .plus {
 .custom-orderform .form-label {
   color: #252b42;
   font-weight: 600;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+}
+.custom-orderform .custom-btn {
+  font-weight: 600;
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+  font-family: "Poppins", sans-serif;
+}
+.custom-orderform textarea {
+  height: 215px;
 }
 
 /* MEDIA QURIES */
