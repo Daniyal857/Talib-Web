@@ -446,6 +446,39 @@ footer .about-block .plus {
 .custom-orderform textarea {
   height: 215px;
 }
+.custom-orderform .date-btn {
+  background-color: #ddfffa;
+  color: #737373 !important;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.custom-orderform .date-btn.selected {
+  color: white !important;
+  background-color: #12cbae;
+  font-weight: normal;
+}
+.custom-orderform .daterangepicker td.active,
+.custom-orderform .daterangepicker td.active:hover {
+  background-color: #12cbae !important;
+}
+.daterangepicker .drp-buttons .applyBtn,
+.daterangepicker .drp-buttons .cancelBtn {
+  width: 48%;
+  border-radius: 4px;
+}
+.daterangepicker .drp-selected {
+  display: none;
+}
+.daterangepicker.show-calendar .drp-buttons {
+  text-align: center;
+}
+.daterangepicker .drp-buttons .cancelBtn {
+  margin: 0px;
+  background: #e7eaee;
+}
+.daterangepicker .drp-buttons .applyBtn {
+  background: #12cbae;
+}
 
 /* MEDIA QURIES */
 

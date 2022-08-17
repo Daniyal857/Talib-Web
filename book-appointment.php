@@ -110,6 +110,91 @@ require(__DIR__ . '/views/includes/header.php');
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-6">
+                        <div class="fieldwrapper mb-3">
+                            <label for="country" class="form-label">Select Date</label>
+                            <input type="text" class="form-control py-2" name="daterange" value="08/22/2022 - 08/28/2022" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="fieldwrapper mb-3">
+                            <label for="time" class="form-label">Select Time</label>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <button class="custom-btn date-btn text-white px-3 mb-3 w-100">10:00 am</button>
+                                </div>
+                                <div class="col-sm-3">
+                                    <button class="custom-btn date-btn text-white px-3 mb-3 w-100">10:00 am</button>
+                                </div>
+                                <div class="col-sm-3">
+                                    <button class="selected custom-btn date-btn text-white px-3 mb-3 w-100">10:00 am</button>
+                                </div>
+                                <div class="col-sm-3">
+                                    <button class="custom-btn date-btn text-white px-3 mb-3 w-100">10:00 am</button>
+                                </div>
+                                <div class="col-sm-3">
+                                    <button class="custom-btn date-btn text-white px-3 mb-3 w-100">10:00 am</button>
+                                </div>
+                                <div class="col-sm-3">
+                                    <button class="custom-btn date-btn text-white px-3 mb-3 w-100">10:00 am</button>
+                                </div>
+                                <div class="col-sm-3">
+                                    <button class="custom-btn date-btn text-white px-3 mb-3 w-100">10:00 am</button>
+                                </div>
+                                <div class="col-sm-3">
+                                    <button class="custom-btn date-btn text-white px-3 mb-3 w-100">10:00 am</button>
+                                </div>
+                                <div class="col-sm-3">
+                                    <button class="custom-btn date-btn text-white px-3 mb-3 w-100">10:00 am</button>
+                                </div>
+                                <div class="col-sm-3">
+                                    <button class="custom-btn date-btn text-white px-3 mb-3 w-100">10:00 am</button>
+                                </div>
+                                <div class="col-sm-3">
+                                    <button class="custom-btn date-btn text-white px-3 mb-3 w-100">10:00 am</button>
+                                </div>
+                                <div class="col-sm-3">
+                                    <button class="custom-btn date-btn text-white px-3 mb-3 w-100">10:00 am</button>
+                                </div>
+                                <div class="col-sm-3">
+                                    <button class="custom-btn date-btn text-white px-3 mb-3 w-100">10:00 am</button>
+                                </div>
+                                <div class="col-sm-3">
+                                    <button class="custom-btn date-btn text-white px-3 mb-3 w-100">10:00 am</button>
+                                </div>
+                                <div class="col-sm-3">
+                                    <button class="custom-btn date-btn text-white px-3 mb-3 w-100">10:00 am</button>
+                                </div>
+                                <div class="col-sm-3">
+                                    <button class="custom-btn date-btn text-white px-3 mb-3 w-100">10:00 am</button>
+                                </div>
+                                <div class="col-sm-3">
+                                    <button class="custom-btn date-btn text-white px-3 mb-3 w-100">10:00 am</button>
+                                </div>
+                                <div class="col-sm-3">
+                                    <button class="custom-btn date-btn text-white px-3 mb-3 w-100">10:00 am</button>
+                                </div>
+                                <div class="col-sm-3">
+                                    <button class="custom-btn date-btn text-white px-3 mb-3 w-100">10:00 am</button>
+                                </div>
+                                <div class="col-sm-3">
+                                    <button class="custom-btn date-btn text-white px-3 mb-3 w-100">10:00 am</button>
+                                </div>
+                                <div class="col-sm-3">
+                                    <button class="custom-btn date-btn text-white px-3 mb-3 w-100">10:00 am</button>
+                                </div>
+                                <div class="col-sm-3">
+                                    <button class="custom-btn date-btn text-white px-3 mb-3 w-100">10:00 am</button>
+                                </div>
+                                <div class="col-sm-3">
+                                    <button class="custom-btn date-btn text-white px-3 mb-3 w-100">10:00 am</button>
+                                </div>
+                                <div class="col-sm-3">
+                                    <button class="custom-btn date-btn text-white px-3 mb-3 w-100">10:00 am</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="col-md-12">
                         <div class="fieldwrapper mb-3">
                             <label for="discription" class="form-label">Description</label>
@@ -117,12 +202,16 @@ require(__DIR__ . '/views/includes/header.php');
                         </div>
                     </div>
                     <div class="col-lg-12">
-                        <button class="custom-btn primaryBackgroundColor colorWhite mt-3 px-4 rounded-2 w-100" type="submit">Book Appointment</button>
+                        <button class="custom-btn primaryBackgroundColor text-white mt-3 px-4 rounded-2 w-100" type="submit">Book Appointment</button>
                     </div>
                 </div>
             </form>
         </div>
     </section>
 </div>
+
+
+
+
 
 <?php require(__DIR__ . '/views/includes/footer.php'); ?>
