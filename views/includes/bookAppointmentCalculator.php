@@ -24,44 +24,52 @@
     <div class="heading d-flex justify-content-center mb-2">
         <h6 class="title">Book Appointment</h6>
     </div>
-    <form class="customForm row g-3">
+    <form class="customForm row g-3 needs-validation" novalidate>
         <div class="col-12">
-            <label for="name" class="form-label">Name *</label>
-            <input type="text" class="form-control" id="inputName" placeholder="Full Name">
+            <label for="name" class="form-label">Name <span class="text-dark">*</span></label>
+            <input type="text" class="form-control" id="inputName" placeholder="Full Name" required>
+            <div class="invalid-feedback">
+                Name is required.
+            </div>
         </div>
         <div class="col-12">
-            <label for="phone" class="form-label">Phone number *</label>
-            <input type="tel" class="form-control" id="phone" name="phone" placeholder="+968 9988 7766">
+            <label for="phone" class="form-label">Phone number <span class="text-dark">*</span></label>
+            <input type="tel" class="form-control" id="phone" name="phone" placeholder="+968 9988 7766" required>
+            <div class="invalid-feedback">
+                Phone number is required.
+            </div>
         </div>
         <div class="col-md-6">
-            <label for="inputAge" class="form-label">Age *</label>
-            <select id="inputAge" class="form-select">
-                <option selected>Choose...</option>
-                <option>24</option>
-                <option>25</option>
-                <option>26</option>
+            <label for="number" class="form-label">Age <span class="text-dark">*</span></label>
+            <input type="number" class="form-control" id="number" placeholder="25" required>
+            <div class="invalid-feedback">
+                Age is required.
+            </div>
+        </div>
+        <div class="col-md-6">
+            <label for="type" class="form-label">Type <span class="text-dark">*</span></label>
+            <select class="form-select" id="type" required>
+                <option value="">Choose...</option>
+                <option>Dermatologist - 20 OMR</option>
             </select>
+            <div class="invalid-feedback">
+                Please select a valid type.
+            </div>
         </div>
         <div class="col-md-6">
-            <label for="inputType" class="form-label">Type *</label>
-            <select id="inputType" class="form-select">
-                <option selected>Choose...</option>
-                <option>Dermatologist</option>
-                <option>Dermatologist</option>
-                <option>Dermatologist</option>
-            </select>
-        </div>
-        <div class="col-md-6">
-            <label for="inputDate" class="form-label">Date *</label>
-            <select id="inputDate" class="form-select">
-                <option selected>Choose...</option>
+            <label for="date" class="form-label">Date <span class="text-dark">*</span></label>
+            <select class="form-select" id="date" required>
+                <option value="">Choose...</option>
                 <option>...</option>
             </select>
+            <div class="invalid-feedback">
+                Date is required.
+            </div>
         </div>
         <div class="col-md-6">
-            <label for="inputTime" class="form-label">Time *</label>
-            <select id="inputTime" class="form-select">
-                <option selected>Choose...</option>
+            <label for="time" class="form-label">Time <span class="text-dark">*</span></label>
+            <select class="form-select" id="time" required>
+                <option value="">Choose...</option>
                 <option>12:00</option>
                 <option>13:00</option>
                 <option>14:00</option>
@@ -71,6 +79,9 @@
                 <option>18:00</option>
                 <option>19:00</option>
             </select>
+            <div class="invalid-feedback">
+                Time is required.
+            </div>
         </div>
         <div class="col-12">
             <button type="submit" class="custom-btn submitBtn primaryBackgroundColor mt-1 py-2">Book Appointment</button>
