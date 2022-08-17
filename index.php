@@ -1,9 +1,37 @@
 <?php
-$pageClass = "";
+$pageClass = "homepage";
 require(__DIR__ . '/views/includes/header.php');
 ?>
 
+<!-- NAVIGATION AND BANNER SECTION 
+  ================================================== -->
+<section class="heroSection position-relative">
+  <?php require(__DIR__ . '/views/includes/navigation.php'); ?>
+  <div class="heroWrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="heroInner">
+            <h1 class="title colorWhite">Meet the Best <span class="d-flex">Hospital</span></h1>
+            <p class="text colorWhite">We know how large objects will act,
+              <span class="d-block">but things on a small scale.</span>
+            </p>
+            <a href="#" class="custom-btn callBtn btn-primary primaryBackgroundColor colorWhite">call us now</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="custom-form">
+            <?php require(__DIR__ . '/views/includes/bookAppointmentCalculator.php'); ?>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <?php require(__DIR__ . '/views/includes/loginForm.php'); ?>
+
+
 <!--ABOUT US SECTION 
   ================================================== -->
 <section class="about-us py-5">
@@ -12,7 +40,7 @@ require(__DIR__ . '/views/includes/header.php');
       <div class="col-6">
         <h2 class="title mb-3 mt-3">About us</h2>
         <div class="desc  mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor dis elit volutpat imperdiet facilisis. Venenatis sed donec iaculis tristique molestie volutpat nec velit odio. Pharetra purus nunc ac risus eleifend.</div>
-        <a href="#" class="custom-btn primaryBackgroundColor colorWhite mt-3 px-4 rounded-5">Book an appointment</a>
+        <a href="<?php echo $base_url; ?>/book-appointment.php" class="custom-btn primaryBackgroundColor colorWhite mt-3 px-4 rounded-5">Book an appointment</a>
       </div>
       <div class="col-6">
         <div class="about-img">
