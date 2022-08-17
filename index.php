@@ -3,7 +3,7 @@ $pageClass = "";
 require(__DIR__ . '/views/includes/header.php');
 ?>
 
-
+<?php require(__DIR__ . '/views/includes/loginForm.php'); ?>
 <!--ABOUT US SECTION 
   ================================================== -->
 <section class="about-us py-5">
@@ -22,6 +22,7 @@ require(__DIR__ . '/views/includes/header.php');
     </div>
   </div>
 </section>
+
 
 <!--FEATURED ITEM SECTION 
   ================================================== -->

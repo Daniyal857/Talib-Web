@@ -12,26 +12,11 @@
         color: #252B42;
     }
 
-    .appointmentForm .form-label {
-        color: #252B42;
-        font-size: 13px;
-        line-height: 24px;
-    }
-
     .appointmentForm .submitBtn {
         width: 100%;
         font-size: 14px;
         border-radius: 5px;
         text-transform: capitalize;
-    }
-
-    .appointmentForm .form-control,
-    .appointmentForm .form-select {
-        color: #737373;
-        font-size: 13px;
-        font-weight: 700;
-        background-color: #F9F9F9;
-        border: 1px solid #E6E6E6;
     }
 </style>
 
@@ -39,7 +24,7 @@
     <div class="heading d-flex justify-content-center mb-2">
         <h6 class="title">Book Appointment</h6>
     </div>
-    <form class="row g-3">
+    <form class="customForm row g-3">
         <div class="col-12">
             <label for="name" class="form-label">Name *</label>
             <input type="text" class="form-control" id="inputName" placeholder="Full Name">

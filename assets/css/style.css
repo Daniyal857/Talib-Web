@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@400;700&display=swap");
 
 /* 
 font-family: 'Montserrat', sans-serif;
@@ -288,10 +288,10 @@ body {
   text-align: center;
 }
 footer {
-  position: relative;
   z-index: 1;
+  position: relative;
+  background-color: white;
 }
-
 footer .title {
   text-transform: capitalize;
   font-size: 20px;
@@ -365,4 +365,61 @@ footer .about-block .plus {
   height: 100px;
   bottom: -25px;
   right: 10%;
+}
+
+/* CUSTOM FORM STYLES */
+.customForm .form-control,
+.customForm .form-select {
+  color: #737373;
+  font-size: 13px;
+  background-color: #f9f9f9;
+  border: 1px solid #e6e6e6;
+}
+
+.customForm .form-label {
+  color: #252b42;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.customModal {
+}
+.customModal .modal-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #252b42;
+}
+.customModal .modal-header {
+  border-bottom: 0;
+}
+.customModal .submitBtn {
+  width: 100%;
+}
+.customModal .modal-footer {
+  border-top: 0;
+}
+.customModal .footertxt {
+  color: #252b42;
+  font-size: 13px;
+  font-weight: 600;
+}
+.customModal .footertxt a {
+  color: #ff0918;
+}
+.customModal .verificationTxt {
+  font-size: 13px;
+  color: #252b42;
+  font-weight: 600;
+}
+.customModal .verifyField {
+  height: 55px;
+}
+
+/* MEDIA QURIES */
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 420px;
+  }
 }
