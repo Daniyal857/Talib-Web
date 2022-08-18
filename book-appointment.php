@@ -13,7 +13,7 @@ require(__DIR__ . '/views/includes/header.php');
 
     <!--APPOINTMENT FORM SECTION 
   ================================================== -->
-    <section class="section-container py-5">
+    <section class="section-container background-pattern position-relative py-5">
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -21,7 +21,7 @@ require(__DIR__ . '/views/includes/header.php');
                 </div>
             </div>
 
-            <form class="row g-3 needs-validation custom-orderform" novalidate>
+            <form class="row g-3 needs-validation custom-orderform" novalidate action="<?php echo $base_url; ?>/confirm-appointment-detail.php">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="fieldwrapper mb-3">
@@ -209,9 +209,6 @@ require(__DIR__ . '/views/includes/header.php');
         </div>
     </section>
 </div>
-
-
-
 
 
 <?php require(__DIR__ . '/views/includes/footer.php'); ?>

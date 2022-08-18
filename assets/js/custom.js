@@ -38,3 +38,7 @@ $(function () {
     );
   });
 })();
+
+$(function () {
+  $("#table").bootstrapTable();
+});
