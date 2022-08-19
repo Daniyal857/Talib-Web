@@ -83,10 +83,16 @@ require(__DIR__ . '/views/includes/header.php');
             </div>
           </div>
           <div class="col-lg-3">
-            <div class="product-card rounded-3 d-flex flex-column p-3">
-              <img src="/assets/images/prodImgTwojpg.jpg" alt="product image" class="img-fluid">
+            <div class="product-card rounded-3 d-flex flex-column p-3 mb-3">
+              <a href="#">
+                <figure>
+                  <img src="/assets/images/prodImgTwojpg.jpg" alt="product image" class="img-fluid w-100">
+                </figure>
+              </a>
               <div class="d-flex flex-column">
-                <h6 class="title pt-3">product title</h6>
+                <a href="#">
+                  <h6 class="title pt-1">product title</h6>
+                </a>
                 <p class="desc">Space for a small product description</p>
               </div>
               <div class="priceBox d-flex justify-content-between align-items-center">
@@ -96,10 +102,16 @@ require(__DIR__ . '/views/includes/header.php');
             </div>
           </div>
           <div class="col-lg-3">
-            <div class="product-card rounded-3 d-flex flex-column p-3">
-              <img src="/assets/images/prodImgOne.jpg" alt="product image" class="img-fluid">
+            <div class="product-card rounded-3 d-flex flex-column p-3 mb-3">
+              <a href="#">
+                <figure>
+                  <img src="/assets/images/prodImgTwojpg.jpg" alt="product image" class="img-fluid w-100">
+                </figure>
+              </a>
               <div class="d-flex flex-column">
-                <h6 class="title pt-3">product title</h6>
+                <a href="#">
+                  <h6 class="title pt-1">product title</h6>
+                </a>
                 <p class="desc">Space for a small product description</p>
               </div>
               <div class="priceBox d-flex justify-content-between align-items-center">
@@ -109,10 +121,16 @@ require(__DIR__ . '/views/includes/header.php');
             </div>
           </div>
           <div class="col-lg-3">
-            <div class="product-card rounded-3 d-flex flex-column p-3">
-              <img src="/assets/images/prodImgTwojpg.jpg" alt="product image" class="img-fluid">
+            <div class="product-card rounded-3 d-flex flex-column p-3 mb-3">
+              <a href="#">
+                <figure>
+                  <img src="/assets/images/prodImgTwojpg.jpg" alt="product image" class="img-fluid w-100">
+                </figure>
+              </a>
               <div class="d-flex flex-column">
-                <h6 class="title pt-3">product title</h6>
+                <a href="#">
+                  <h6 class="title pt-1">product title</h6>
+                </a>
                 <p class="desc">Space for a small product description</p>
               </div>
               <div class="priceBox d-flex justify-content-between align-items-center">
