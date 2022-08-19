@@ -12,7 +12,7 @@
                     <ul class="navbar-nav mb-2 mb-lg-0">
                         <li class="nav-item"><a href="<?php echo $base_url; ?>" class="nav-link active" aria-current="page">Home</a></li>
                         <li class="nav-item"><a href="<?php echo $base_url; ?>" class="nav-link">About Us</a></li>
-                        <li class="nav-item"><a href="<?php echo $base_url; ?>/items-page.php" class="nav-link">Items</a></li>
+                        <li class="nav-item"><a href="<?php echo $base_url; ?>/product-category.php" class="nav-link">Items</a></li>
                         <li class="nav-item"><a href="<?php echo $base_url; ?>" class="nav-link">Contact</a></li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

@@ -797,6 +797,51 @@ input[type="number"]::-webkit-inner-spin-button {
 .widget-section ul li a:hover {
   color: #12cbae;
 }
+.product-details-page {
+  background-color: #fafafa;
+}
+
+.product-details-page .product-detail {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: space-between;
+  min-height: calc(100vh - 200px);
+}
+.product-detail .product-title {
+  font-size: 30px;
+  font-weight: 600;
+  color: #151515;
+  font-family: "Poppins", sans-serif;
+}
+.product-detail .para {
+  color: #737373;
+  line-height: 1.6;
+  font-family: "Poppins", sans-serif;
+}
+.product-detail .price-block {
+  border: 1px solid #d0d5dd;
+}
+.product-detail .price {
+  font-size: 25px;
+  font-weight: 600;
+  color: #12cbae;
+  font-family: "Poppins", sans-serif;
+}
+.quantity-block input {
+  width: 90px;
+  background-color: #f9f9f9;
+  border: 1px solid #d1d1d1;
+}
+.quantity-block .cart-btn {
+  min-width: 200px;
+}
+.product-gallary-block figure:first-child img {
+  max-height: 470px;
+}
+.product-gallary-block figure:last-child img {
+  max-height: 224px;
+}
 
 /* MEDIA QURIES */
 
