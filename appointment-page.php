@@ -13,7 +13,7 @@ require(__DIR__ . '/views/includes/header.php');
 
     <!--APPOINTMENT FORM SECTION 
   ================================================== -->
-    <section class="section-container appointment-records background-pattern-three position-relative py-5">
+    <section class="section-container position-relative py-5">
         <div class="container">
             <div class="row">
                 <div class="col d-flex justify-content-between align-items-center mb-3">
