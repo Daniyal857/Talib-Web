@@ -69,13 +69,13 @@ require(__DIR__ . '/views/includes/header.php');
                         <div class="col-md-4">
                             <!-- PRODUCT CARD -->
                             <div class="product-card rounded-3 d-flex flex-column p-3 mb-3">
-                                <a href="#">
+                                <a href="<?php echo $base_url; ?>/product-detail.php">
                                     <figure>
                                         <img src="/assets/images/prodImgTwojpg.jpg" alt="product image" class="img-fluid w-100">
                                     </figure>
                                 </a>
                                 <div class="d-flex flex-column">
-                                    <a href="#">
+                                    <a href="<?php echo $base_url; ?>/product-detail.php">
                                         <h6 class="title pt-1">product title</h6>
                                     </a>
                                     <p class="desc">Space for a small product description</p>
@@ -89,13 +89,13 @@ require(__DIR__ . '/views/includes/header.php');
                         <div class="col-md-4">
                             <!-- PRODUCT CARD -->
                             <div class="product-card rounded-3 d-flex flex-column p-3 mb-3">
-                                <a href="#">
+                                <a href="<?php echo $base_url; ?>/product-detail.php">
                                     <figure>
                                         <img src="/assets/images/prodImgTwojpg.jpg" alt="product image" class="img-fluid w-100">
                                     </figure>
                                 </a>
                                 <div class="d-flex flex-column">
-                                    <a href="#">
+                                    <a href="<?php echo $base_url; ?>/product-detail.php">
                                         <h6 class="title pt-1">product title</h6>
                                     </a>
                                     <p class="desc">Space for a small product description</p>
@@ -109,13 +109,13 @@ require(__DIR__ . '/views/includes/header.php');
                         <div class="col-md-4">
                             <!-- PRODUCT CARD -->
                             <div class="product-card rounded-3 d-flex flex-column p-3 mb-3">
-                                <a href="#">
+                                <a href="<?php echo $base_url; ?>/product-detail.php">
                                     <figure>
                                         <img src="/assets/images/prodImgTwojpg.jpg" alt="product image" class="img-fluid w-100">
                                     </figure>
                                 </a>
                                 <div class="d-flex flex-column">
-                                    <a href="#">
+                                    <a href="<?php echo $base_url; ?>/product-detail.php">
                                         <h6 class="title pt-1">product title</h6>
                                     </a>
                                     <p class="desc">Space for a small product description</p>
@@ -129,13 +129,13 @@ require(__DIR__ . '/views/includes/header.php');
                         <div class="col-md-4">
                             <!-- PRODUCT CARD -->
                             <div class="product-card rounded-3 d-flex flex-column p-3 mb-3">
-                                <a href="#">
+                                <a href="<?php echo $base_url; ?>/product-detail.php">
                                     <figure>
                                         <img src="/assets/images/prodImgTwojpg.jpg" alt="product image" class="img-fluid w-100">
                                     </figure>
                                 </a>
                                 <div class="d-flex flex-column">
-                                    <a href="#">
+                                    <a href="<?php echo $base_url; ?>/product-detail.php">
                                         <h6 class="title pt-1">product title</h6>
                                     </a>
                                     <p class="desc">Space for a small product description</p>
@@ -149,13 +149,13 @@ require(__DIR__ . '/views/includes/header.php');
                         <div class="col-md-4">
                             <!-- PRODUCT CARD -->
                             <div class="product-card rounded-3 d-flex flex-column p-3 mb-3">
-                                <a href="#">
+                                <a href="<?php echo $base_url; ?>/product-detail.php">
                                     <figure>
                                         <img src="/assets/images/prodImgTwojpg.jpg" alt="product image" class="img-fluid w-100">
                                     </figure>
                                 </a>
                                 <div class="d-flex flex-column">
-                                    <a href="#">
+                                    <a href="<?php echo $base_url; ?>/product-detail.php">
                                         <h6 class="title pt-1">product title</h6>
                                     </a>
                                     <p class="desc">Space for a small product description</p>
@@ -169,13 +169,13 @@ require(__DIR__ . '/views/includes/header.php');
                         <div class="col-md-4">
                             <!-- PRODUCT CARD -->
                             <div class="product-card rounded-3 d-flex flex-column p-3 mb-3">
-                                <a href="#">
+                                <a href="<?php echo $base_url; ?>/product-detail.php">
                                     <figure>
                                         <img src="/assets/images/prodImgTwojpg.jpg" alt="product image" class="img-fluid w-100">
                                     </figure>
                                 </a>
                                 <div class="d-flex flex-column">
-                                    <a href="#">
+                                    <a href="<?php echo $base_url; ?>/product-detail.php">
                                         <h6 class="title pt-1">product title</h6>
                                     </a>
                                     <p class="desc">Space for a small product description</p>
@@ -189,13 +189,13 @@ require(__DIR__ . '/views/includes/header.php');
                         <div class="col-md-4">
                             <!-- PRODUCT CARD -->
                             <div class="product-card rounded-3 d-flex flex-column p-3 mb-3">
-                                <a href="#">
+                                <a href="<?php echo $base_url; ?>/product-detail.php">
                                     <figure>
                                         <img src="/assets/images/prodImgTwojpg.jpg" alt="product image" class="img-fluid w-100">
                                     </figure>
                                 </a>
                                 <div class="d-flex flex-column">
-                                    <a href="#">
+                                    <a href="<?php echo $base_url; ?>/product-detail.php">
                                         <h6 class="title pt-1">product title</h6>
                                     </a>
                                     <p class="desc">Space for a small product description</p>
@@ -206,6 +206,47 @@ require(__DIR__ . '/views/includes/header.php');
                                 </div>
                             </div>
                         </div>
+                        <div class="col-md-4">
+                            <!-- PRODUCT CARD -->
+                            <div class="product-card rounded-3 d-flex flex-column p-3 mb-3">
+                                <a href="<?php echo $base_url; ?>/product-detail.php">
+                                    <figure>
+                                        <img src="/assets/images/prodImgTwojpg.jpg" alt="product image" class="img-fluid w-100">
+                                    </figure>
+                                </a>
+                                <div class="d-flex flex-column">
+                                    <a href="<?php echo $base_url; ?>/product-detail.php">
+                                        <h6 class="title pt-1">product title</h6>
+                                    </a>
+                                    <p class="desc">Space for a small product description</p>
+                                </div>
+                                <div class="priceBox d-flex justify-content-between align-items-center">
+                                    <span class="price">1.12 OMR</span>
+                                    <a href="#" class="custom-btn cartBtn colorWhite primaryBackgroundColor pt-2 px-3">add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <!-- PRODUCT CARD -->
+                            <div class="product-card rounded-3 d-flex flex-column p-3 mb-3">
+                                <a href="<?php echo $base_url; ?>/product-detail.php">
+                                    <figure>
+                                        <img src="/assets/images/prodImgTwojpg.jpg" alt="product image" class="img-fluid w-100">
+                                    </figure>
+                                </a>
+                                <div class="d-flex flex-column">
+                                    <a href="<?php echo $base_url; ?>/product-detail.php">
+                                        <h6 class="title pt-1">product title</h6>
+                                    </a>
+                                    <p class="desc">Space for a small product description</p>
+                                </div>
+                                <div class="priceBox d-flex justify-content-between align-items-center">
+                                    <span class="price">1.12 OMR</span>
+                                    <a href="#" class="custom-btn cartBtn colorWhite primaryBackgroundColor pt-2 px-3">add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
