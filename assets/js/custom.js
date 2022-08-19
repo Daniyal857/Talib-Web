@@ -38,7 +38,3 @@ $(function () {
     );
   });
 })();
-
-$(function () {
-  $("#table").bootstrapTable();
-});

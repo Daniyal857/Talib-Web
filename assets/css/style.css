@@ -26,6 +26,7 @@ body {
 .primaryBackgroundColor {
   background-color: #12cbae !important;
 }
+
 .btn-check:active + .btn,
 .btn-check:checked + .btn,
 .btn.active,
@@ -75,6 +76,35 @@ body {
 }
 .custom-btn:hover {
   color: white;
+}
+
+/* ========================= */
+/* BACKGROUND PATTERN */
+/* ========================= */
+.bg-pattern-plus::before {
+  right: 0px;
+  z-index: -1;
+  content: "";
+  top: 0px;
+  width: 186px;
+  height: 213px;
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../images/plus-bg-icon.png");
+}
+.bg-pattern-plus::after {
+  bottom: 0px;
+  z-index: -1;
+  content: "";
+  left: 0px;
+  width: 186px;
+  height: 213px;
+  position: absolute;
+  transform: scale(-1);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../images/plus-bg-icon.png");
 }
 
 /* ========================= */
@@ -200,25 +230,36 @@ body {
   background-color: white;
   border: 0.5px solid #d1d1d1;
 }
+.product-card .title,
+.product-card .desc {
+  flex: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
 .product-card .title {
-  font-family: "Poppins", sans-serif;
+  color: #252b42;
   font-size: 14px;
   font-weight: bold;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
 }
 .product-card .desc {
   font-size: 12px;
-  font-weight: bold;
+  color: #575757;
   font-family: "Open Sans";
 }
 .product-card .priceBox .price {
   color: #151515;
   font-size: 18px;
+  font-weight: 600;
   font-family: "Poppins", sans-serif;
 }
 .product-card .cartBtn {
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   font-size: 12px;
+  font-weight: 600;
 }
 .featuredSection .viewAll {
   font-family: "Poppins", sans-serif;
@@ -633,6 +674,125 @@ footer .about-block .plus {
 .appointment-record .form-check-input:checked {
   background-color: #12cbae;
   border-color: #12cbae;
+}
+
+/* PRICE RANGE SLIDER */
+.widget-section .price-input {
+  width: 100%;
+  display: flex;
+  margin: 30px 0 35px;
+}
+.price-input .field {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.widget-section .price-input .field span {
+  font-weight: 600;
+  color: #151515;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+.widget-section .field input {
+  outline: none;
+  width: 100%;
+  font-size: 16px;
+  min-height: 35px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #f9f9f9;
+  border: 1px solid #d1d1d1;
+  -moz-appearance: textfield;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.widget-section .price-input .separator {
+  display: flex;
+  font-size: 19px;
+  margin: 0px 10px;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(10px);
+}
+.widget-section .slider {
+  height: 6px;
+  position: relative;
+  background: #ebebeb;
+  border-radius: 5px;
+}
+.widget-section .slider .progress {
+  height: 100%;
+  left: 25%;
+  right: 25%;
+  position: absolute;
+  border-radius: 5px;
+  background: #12cbae;
+}
+.widget-section .range-input {
+  position: relative;
+}
+.widget-section .range-input input {
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  top: -5px;
+  background: none;
+  pointer-events: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.widget-section input[type="range"]::-webkit-slider-thumb {
+  height: 17px;
+  width: 17px;
+  border-radius: 50%;
+  background: white;
+  pointer-events: auto;
+  -webkit-appearance: none;
+  border: 1px solid #d1d1d1;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+}
+.widget-section input[type="range"]::-moz-range-thumb {
+  height: 17px;
+  width: 17px;
+  border: none;
+  border-radius: 50%;
+  background: white;
+  pointer-events: auto;
+  -moz-appearance: none;
+  border: 1px solid #d1d1d1;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+}
+.widget-section .custom-btn {
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+.widget-section .reset-btn {
+  background-color: #f5f5f5;
+  color: #4b4b4b;
+}
+/* PRICE RANGE SLIDER */
+
+.widget-section .title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #151515;
+  font-family: "Poppins", sans-serif;
+}
+.widget-section ul {
+  padding: 0;
+  list-style: none;
+  line-height: 1.8;
+}
+.widget-section ul li a {
+  color: #151515;
+  font-size: 16px;
+  text-decoration: none;
+  font-family: "Open Sans";
+}
+.widget-section ul li a:hover {
+  color: #12cbae;
 }
 
 /* MEDIA QURIES */
