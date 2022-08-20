@@ -11,7 +11,7 @@ require(__DIR__ . '/views/includes/header.php');
         <?php require(__DIR__ . '/views/includes/navigation.php'); ?>
     </section>
 
-    <section class="section-container product-details-page position-relative py-5">
+    <section class="section-container product-details-page d-flex position-relative py-5">
         <div class="container">
             <div class="row">
                 <div class="col d-flex justify-content-between align-items-center mb-3">
@@ -44,8 +44,8 @@ require(__DIR__ . '/views/includes/header.php');
                         <div class="price-block rounded-3 p-3 d-flex justify-content-between align-items-center">
                             <span class="price">36.00 OMR</span>
                             <span class="d-flex quantity-block align-items-center justify-content-center">
-                                <input type="number" class="form-control me-2" id="number" name="number" placeholder="1" required>
-                                <a href="<?php echo $base_url; ?>/book-appointment.php" class="cart-btn text-center primaryBackgroundColor custom-btn px-3 d-flex align-items-center justify-content-center">
+                                <input type="number" class="form-control me-2" id="number" name="number" placeholder="1">
+                                <a href="<?php echo $base_url; ?>/cart.php" class="cart-btn text-center primaryBackgroundColor custom-btn px-3 d-flex align-items-center justify-content-center">
                                     <svg class="addIcon me-2" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M8 3.33337V12.6667" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                                         <path d="M3.33325 8H12.6666" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -57,8 +57,6 @@ require(__DIR__ . '/views/includes/header.php');
                     </div>
                 </div>
             </div>
-
-
         </div>
     </section>
 </div>
