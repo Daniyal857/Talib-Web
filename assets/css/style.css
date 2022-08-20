@@ -83,7 +83,6 @@ body {
 /* ========================= */
 .bg-pattern-plus::before {
   right: 0px;
-  z-index: -1;
   content: "";
   top: 0px;
   width: 186px;
@@ -95,7 +94,6 @@ body {
 }
 .bg-pattern-plus::after {
   bottom: 0px;
-  z-index: -1;
   content: "";
   left: 0px;
   width: 186px;
@@ -891,6 +889,7 @@ input[type="number"]::-webkit-inner-spin-button {
 .cart-page .order-summary-block {
   background-color: white;
   min-height: calc(100vh - 200px);
+  z-index: 1;
 }
 .cart-page .product-total {
   width: 50%;

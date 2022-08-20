@@ -19,7 +19,7 @@ require(__DIR__ . '/views/includes/header.php');
                 </div>
             </div>
 
-            <div class="appointment-record">
+            <div class="appointment-record position-relative">
                 <div class="filter-record d-flex justify-content-between align-items-center rounded-1 p-2 mb-3">
                     <form class="filter-wrapper d-flex align-items-center w-25" role="search">
                         <span class="searchIcon position-absolute ms-2">
@@ -39,7 +39,7 @@ require(__DIR__ . '/views/includes/header.php');
                     </button>
                 </div>
             </div>
-            <div class="row">
+            <div class="row position-relative">
                 <div class="col-md-3">
                     <div class="sidebar-section mt-4">
                         <div class="widget-section catogory-list mb-4">
