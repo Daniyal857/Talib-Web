@@ -960,6 +960,36 @@ input[type="number"]::-webkit-inner-spin-button {
   text-transform: capitalize;
   font-family: "Poppins", sans-serif;
 }
+.profile-page {
+  background-color: #fafafa;
+}
+.profile-page .avatar-block {
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+}
+.profile-block .avatar-block img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-color: #e9e9e9;
+}
+.profile-block .avatar-block .circle {
+  width: 35px;
+  height: 35px;
+  background-color: #12cbae;
+  bottom: 0px;
+  right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-block .avatar-block .circle svg {
+  width: 20px;
+}
+.profile-block {
+  z-index: 1;
+}
 
 /* MEDIA QURIES */
 
