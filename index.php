@@ -11,10 +11,9 @@ require(__DIR__ . '/views/includes/header.php');
     <div class="container">
       <div class="row">
         <div class="col">
-          <div class="heroInner">
-            <h1 class="title colorWhite">Meet the Best <span class="d-flex">Hospital</span></h1>
-            <p class="text colorWhite">We know how large objects will act,
-              <span class="d-block">but things on a small scale.</span>
+          <div class="heroInner w-75">
+            <h1 class="title colorWhite">Meet the Best Hospital</h1>
+            <p class="text colorWhite">We know how large objects will act, but things on a small scale.
             </p>
             <a href="#" class="custom-btn callBtn btn-primary primaryBackgroundColor colorWhite">call us now</a>
           </div>
@@ -39,7 +38,7 @@ require(__DIR__ . '/views/includes/header.php');
     <div class="row">
       <div class="col-6">
         <h2 class="title mb-3 mt-3">About us</h2>
-        <div class="desc  mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor dis elit volutpat imperdiet facilisis. Venenatis sed donec iaculis tristique molestie volutpat nec velit odio. Pharetra purus nunc ac risus eleifend.</div>
+        <p class="desc  mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor dis elit volutpat imperdiet facilisis. Venenatis sed donec iaculis tristique molestie volutpat nec velit odio. Pharetra purus nunc ac risus eleifend.</p>
         <a href="<?php echo $base_url; ?>/book-appointment.php" class="custom-btn primaryBackgroundColor colorWhite mt-3 px-4 rounded-5">Book an appointment</a>
       </div>
       <div class="col-6">
@@ -217,8 +216,7 @@ require(__DIR__ . '/views/includes/header.php');
         <path opacity="0.1" d="M101.4 0H54.6V54.5695H0V101.43H54.6V156H101.4V101.43H156V54.5695H101.4V0Z" fill="#12CBAE" />
       </svg>
       <h5 class="mb-2 title">Our Location</h5>
-      <p class="desc mb-4">Problems trying to resolve the conflict between
-        <span class="d-flex">the two major realms of Classical physics: Newtonian mechanics</span>
+      <p class="desc mb-4 w-50">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics
       </p>
     </div>
     <div class="mapWrapper">
